@@ -78,8 +78,7 @@ li {
 }
 
 .page-body {
-    width: 90%;
-    max-width: 1600px;
+    width: 100%;
     display: flex;
     position: relative;
     flex-grow: 1;
@@ -92,8 +91,7 @@ li {
     background-color: rgb(186, 187, 177);
     justify-content: space-between;
     font-size: 1.5rem;
-    width: 90%;
-    max-width: 1600px;
+    width: 100%;
     margin: auto;
 }
 
@@ -225,7 +223,6 @@ li {
 }
 
 .galery-overlay {
-    /* display: none; */
     position: fixed;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
@@ -248,7 +245,6 @@ li {
 .galery-thumb-wrapper {
     display: flex;
     flex-flow: row nowrap;
-    /* justify-content: center; */
     overflow-x: auto;
 }
 
@@ -256,10 +252,6 @@ li {
     max-width: 200px;
     padding-right: 3px;
 }
-
-/* .galery-thumb-wrapper::-webkit-scrollbar {
-    display: none;
-} */
 
 .overlaypic {
     width: 70%;
@@ -423,8 +415,8 @@ li {
 .about-me {
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
-    max-width: 100%;
+    width: 100%;
+    margin: 0 50px;
 }
 
 .about-me-header {
@@ -563,6 +555,10 @@ li {
         height: fit-content;
         margin: 0;
         padding: 0;
+    }
+    
+    .about-me {
+        margin: 0 20px;
     }
 
     .header-menu,

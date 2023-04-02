@@ -17,9 +17,6 @@ $('.menu_name').click(function () {
     }
 });
 
-$(window).click(function(e){
-    console.log(e.target.className);
-});
 var logo = document.querySelector('.logo-wrapper-mobile');
 logo.addEventListener('touchstart', function(e){
     e.preventDefault();
