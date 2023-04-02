@@ -1,0 +1,64 @@
+img{
+    pointer-events: none;
+    user-select: none;
+}
+
+.compare_thmb_wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    /* justify-content: center; */
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.thmb {
+    max-width: 200px;
+    margin-right: 2px;
+}
+
+.compare {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.comp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    border-right: 3px solid rgba(0, 0, 0, 0.6);
+    max-width: 100%;
+}
+
+.compbg {
+    height: fit-content;
+}
+
+.comppic2 {
+    width: 100%;
+    display: block;
+}
+
+.comppic {
+    display: block;
+}
+
+.control_wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+.compare_thmb_wrapper>a:nth-child(2n){
+    display: none;
+}
+
+.c_mp_wrapper {
+    position: relative;
+    margin-bottom: 3px;
+    height: fit-content;
+}

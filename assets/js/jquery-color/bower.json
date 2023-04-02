@@ -1,0 +1,18 @@
+{
+	"name": "jquery-color",
+	"description": "jQuery plugin for color manipulation and animation support.",
+	"main": [
+		"jquery.color.js"
+	],
+	"moduleType": [
+		"amd",
+		"node",
+		"globals"
+	],
+	"ignore": [
+		"**/.*",
+		"Gruntfile.js",
+		"external",
+		"test"
+	]
+}
